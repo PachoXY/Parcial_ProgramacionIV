@@ -1,0 +1,144 @@
+body {
+  font-family: Cascadia Mono, monospace;
+  background-color: white;
+  margin:auto;
+  width:90%;
+  padding:10px;
+}
+
+header {
+  background-color: #F47920;
+  padding: 10px 20px;
+}
+
+nav.Menu ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+nav.Menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+nav.Menu ul li a:hover {
+  color: #F47920;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sidebar-botones {
+  position: fixed;
+  left: 16px;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar-botones a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F47920;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border: 3px solid white;
+}
+
+.sidebar-botones a:hover {
+  background-color: white;
+  color: #F47920;
+  border: 3px solid #F47920;
+}
+
+audio {
+  display: block;
+  margin: 16px 0;
+  width: 50%;
+}
+
+
+form {
+  background-color: white;
+  border-top: 4px solid #F47920;
+  padding: 20px;
+  max-width: 460px;
+  margin: 20px auto; 
+}
+
+label {
+  font-weight: bold;
+  color: #F47920;
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+}
+
+input[type="submit"] {
+  background-color: #F47920;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 14px;
+  width: auto;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #F47920;
+  border: 1px solid #F47920;
+}
+
+footer {
+  background-color: #F47920;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.redes a img {
+  width: 34px;
+}
+
+main img {
+  width: 100%;
+  margin: 10px;
+}
+
+.videos-iframe {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.videos-iframe video,iframe {
+  width: 50%;
+  height: 300px;
+}
+.form-titulo {
+  text-align: center;
+}
